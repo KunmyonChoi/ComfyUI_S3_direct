@@ -1,0 +1,15 @@
+[project]
+name = "s3_direct"
+description = "ComfyUI custom_node that load and save file directly from S3\nSimplified version of [a/https://github.com/kealiu/ComfyUI-S3-Tools](https://github.com/kealiu/ComfyUI-S3-Tools)"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "boto3"]
+
+[project.urls]
+Repository = "https://github.com/KunmyonChoi/ComfyUI_S3_direct"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_S3_direct"
+Icon = ""
